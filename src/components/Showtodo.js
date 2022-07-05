@@ -11,7 +11,7 @@ function ShowTodo(props) {
                 <div className="col-6">
                 <button onClick={()=>{
                     props.ondel(props.id)
-                }}>X</button>
+                }}>Delete</button>
                 </div>
             </div>
             
